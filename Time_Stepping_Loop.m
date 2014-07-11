@@ -35,7 +35,7 @@ for n=1:namx
     % Display Progess to GUI
     if (mod(n,step)==0)
         c=round(clock);
-        disp(['Current time step: ',numstr(n-mod(n,step)),', ',num2str(n/nmax*100),'% completed at', num2str(c(4)),':',num2str(c(5)),':',num2str(c(6))]);
+        disp(['Current time step: ',num2str(n-mod(n,step)),', ',num2str(n/nmax*100),'% completed at', num2str(c(4)),':',num2str(c(5)),':',num2str(c(6))]);
     end
     
 end
